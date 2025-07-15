@@ -2,9 +2,9 @@
 
 namespace Channor\FilamentTranslatableContent\Tests;
 
+use Channor\FilamentTranslatableContent\FilamentTranslatableContentServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Channor\FilamentTranslatableContent\FilamentTranslatableContentServiceProvider;
 
 class TestCase extends Orchestra
 {

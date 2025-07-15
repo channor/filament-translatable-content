@@ -2,9 +2,9 @@
 
 namespace Channor\FilamentTranslatableContent;
 
+use Channor\FilamentTranslatableContent\Commands\FilamentTranslatableContentCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Channor\FilamentTranslatableContent\Commands\FilamentTranslatableContentCommand;
 
 class FilamentTranslatableContentServiceProvider extends PackageServiceProvider
 {

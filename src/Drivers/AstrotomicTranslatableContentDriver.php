@@ -15,7 +15,7 @@ class AstrotomicTranslatableContentDriver implements TranslatableContentDriver
     {
         $modelInstance = app($model);
 
-        if (!method_exists($modelInstance, 'isTranslationAttribute')) {
+        if (! method_exists($modelInstance, 'isTranslationAttribute')) {
             return false;
         }
 
@@ -24,7 +24,7 @@ class AstrotomicTranslatableContentDriver implements TranslatableContentDriver
 
     public function makeRecord(string $model, array $data): Model
     {
-        $record = new $model();
+        $record = new $model;
         $record->fill($data);
 
         return $record;
