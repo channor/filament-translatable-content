@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Channor\FilamentTranslatableContent\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentTranslatableContentCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-translatable-content';
 
     public $description = 'My command';
 
